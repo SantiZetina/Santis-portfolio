@@ -1,0 +1,93 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: monospace;
+}
+  
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-size: 18px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 600;
+  }
+
+nav {
+    display: flex;
+}
+
+.nav ul{
+    margin: 0%;
+    padding: 1.5%;
+    list-style: none;
+
+}
+
+
+
+  .nav > ul > li:hover {
+    background-color: darkgray;
+    color: #1b1b32;
+    cursor: pointer;
+  }
+ 
+
+  .nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: .5em;
+  }
+
+  h6 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+
+.contact-content {
+    margin-top: var(--top-internal-margin);
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-text{
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.name {
+    color: grey;
+}
+
+#first-project{
+  padding: 40px 240px 0px 40px;
+  width: 50%;
+  height: calc(100% - 50px);
+  overflow-y: scroll;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+ color: lightgray;
+ margin-bottom: 10px;
+    text-align: center;
+    float: right;
+    margin-left: 25px;
+    text-size-adjust: 80%
+}
+.first-project-img{
+  float: right;
+        width: 400px;
+        height: 250px;
+        margin: 5px;
+        border-radius: 10%;
+}
